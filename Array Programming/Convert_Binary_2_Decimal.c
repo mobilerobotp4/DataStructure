@@ -1,3 +1,4 @@
+// Convert Binary number to decimal number 
 #include<math.h>
 #include<stdio.h>
 #include <conio.h>
@@ -10,18 +11,23 @@ int main()
    f=r=-1;
    for(i=0;i<=5;i++)
    {
-      scanf("%d",&v);
-      addq(v);
+	   scanf("%d",&v);
+	   if (v==1 || v==0){
+		   addq(v);
+	   }
+	   else{
+		   printf("wrong input")
+			   break;
+	   }
    }
-
-   for(i=5;i>=0;i--)
-   {
-     a=delq();
-     m=pow(2,i);
-     sum=sum+a*m;
-   }
-   printf("DECIMAL NO.IS:%d",sum);
-   return 0;
+	for(i=5;i>=0;i--)
+	{
+		a=delq();
+		m=pow(2,i);
+		sum=sum+a*m;
+	}
+	printf("DECIMAL NO.IS:%d",sum);
+	return 0;
 }
 
 addq(int ele)
@@ -52,4 +58,17 @@ delq()
      return(ele);
   }
 }
+
+/*
+Output:
+1
+0
+1
+0
+1
+1
+Decimal No. is: 43
+Execution time: 10.179s
+
+*/
 
