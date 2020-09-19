@@ -1,3 +1,5 @@
+/* Creating a link list */
+
 #include<stdio.h>
 
 #include<malloc.h>
@@ -61,4 +63,24 @@ int CreateList(struct link *node)
 			node = node->next;
 		}
 	}
+
+/* Output: 
+
+Enter the value for 1 node: 25
+Press 'n' to quit any other key to continue:
+Enter the value for 2 node: 60
+Press 'n' to quit any other key to continue:
+Enter the value for 3 node: 145
+Press 'n' to quit any other key to continue:
+Enter the value for 4 node: 9
+Press 'n' to quit any other key to continue:
+Enter the value for 5 node: 17
+Press 'n' to quit any other key to continue: n
+values of nodes in the list are as follows:
+
+25 60 145 9 17
+
+Execution time: 46.773s
+
+*/
 
