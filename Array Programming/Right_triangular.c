@@ -30,3 +30,25 @@ int main()
         return (0);
 
 }
+/*
+Enter the dimension of the matrix: 3
+Enter the value of the array: 0
+1
+2
+9
+4
+5
+0
+1
+2
+The matrix is:
+0   1   2
+9   4   5
+0   1   2
+
+
+2   4   0
+
+The sum of the off diagonal elements is = 6
+Execution time : 10.636s
+*/
