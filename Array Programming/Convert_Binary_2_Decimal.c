@@ -17,7 +17,7 @@ int main()
 	   }
 	   else{
 		   printf("wrong input")
-			   break;
+			   exit(0);
 	   }
    }
 	for(i=5;i>=0;i--)
