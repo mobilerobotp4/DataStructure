@@ -19,3 +19,17 @@ int move(int count,int start, int stop,int temp)
 		return 0;
 	}
    }
+
+/*
+
+Output: 
+Enter the number of disks at initial state: 3
+Move disk 1 from 1 to 3
+Move disk 2 from 1 to 2
+Move disk 1 from 3 to 2
+Move disk 3 from 1 to 3
+Move disk 1 from 2 to 1
+Move disk 2 from 2 to 3
+Move disk 1 from 1 to 3
+
+*/
