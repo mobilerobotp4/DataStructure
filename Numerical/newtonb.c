@@ -36,22 +36,18 @@ int main()
 }
 /*
 Output:
-Enter the total no. of elements: 6
+Enter the total number of elements given 4
 Enter the value of x:
-0
-1
-2
-3
-4
-5
+60
+70
+80
+90
 Enter the corresponding values of y:
-1
-5
-31
-121
-341
-781
-Enter the value of x whose y is to be found: 1.5
-a=1.500000, sum= 13.1875000
+226
+250
+276
+304
+Enter the value of x whose y is to be found: 84
+y= 288.160004
 execution time: 35.148s
 */
